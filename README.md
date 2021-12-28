@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Project TODO : If time permitted below can be done
+# Project TODO
 
  * Json data is fixed and improved to consider diff types of tags.
  * CSS is applied to look form better, can be improved more considering flexibility.
