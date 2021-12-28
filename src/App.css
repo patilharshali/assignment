@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #444;
+  background: #fff;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.inner {
+  width: 100%;
+  padding: 8rem 10px 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-container {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top:40px;
+  display: flex;
+  /* border-radius: calc(0.5 * 100px); */
+  /* box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38); */
+  justify-content: space-evenly;
+}
+
+.input-text {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 85%;
+  padding-right: 5px;
+  padding-left: 10px;
+  /* border-radius: calc(0.5 * 100px); */
+  /* border-color: green; */
+  border-style: solid;
+  border-width: '2px';
+  /* background-color: green; */
+}
+
+.input-text::placeholder {
+  color: #000;
+}
+
+.input-submit {
+  background: transparent;
+  color: #5b5b5b;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+input[type=checkbox] {
+  margin-bottom: 1px;
+  width: 32px;
+  vertical-align: middle;
+  margin: 10px;
+  border-style: solid;
+  border-width: '2px';
+ }
+ .input-text {
+  height: 45px;
+  margin-bottom: 16px;
+ }
+ 
+.input-submit {
+  font-size: 16px;
+  height: 45px;
+  width: 100px;
+  outline: none; 
 }
